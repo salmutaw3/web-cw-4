@@ -13,21 +13,45 @@ html, body{
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
 
+.flex{
+   display: flex;
+   height: 100%;
+}
+
 .sidebar{
+    width: 120px ;
+    background-color: black;
+    height: 102vh;
+    border-radius: 10px;
+    margin: 5px;
+    color: white;
     /* pxالعرض هنا يجب ان يكون 120 */
 }
 
 .header{
+    height: 20%;
+    border-radius: 10px;
+    margin: 5px;
     /* pxالطول هنا يجب ان يكون 80 */
+    background-color:blue ;
 }
 
 .main{
+background-color: aqua;
+height: 80%;
+margin: 5px;
+border-radius: 10px;
 
 }
 
 a{
     color: darkgray;
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
 }
 
 /* !بــونص */
@@ -39,10 +63,12 @@ a{
 h1{
     margin: 0;
     margin-right: 5px;
+    text-align: center;
 }
 
 h2{
     margin: 0;
     margin-left: 5px;
+    text-align: center;
 }
 
